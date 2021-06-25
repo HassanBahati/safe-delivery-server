@@ -20,7 +20,7 @@ app.use("/api/orders", require("./routes/order"));
 // Error Handler Middleware
 app.use(errorHandler);
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 9000;
 
 const server = app.listen(PORT, () =>
   console.log(`Sever running on port ${PORT}`)
